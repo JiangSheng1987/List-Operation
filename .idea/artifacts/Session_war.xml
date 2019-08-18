@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Session之验证码:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Session_war</output-path>
+    <root id="archive" name="Session之验证码_war.war">
+      <element id="artifact" artifact-name="Session之验证码:war exploded" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Session之验证码/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Jsp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="artifact" artifact-name="unnamed" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Jsp/web/Web" />
+      <element id="artifact" artifact-name="unnamed2" />
+    </root>
+  </artifact>
+</component>
